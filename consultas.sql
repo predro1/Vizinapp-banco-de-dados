@@ -30,44 +30,7 @@ ORDER BY total DESC;
 -- Análise C - Secretarias acima da média
 
 WITH total_secretarias AS (
-    SELECT
-    TikTok
-    
-    
-    
-    
-    Avatar for chaianecarneiro5
-    
-    
-    
-    
-    
-    1
-    
-    
-    
-    
-    
-    Avatar for frazaolima
-    Avatar for chaianecarneiro5
-    Avatar for tv_vibes
-    O luto é o amor que perdura ll #visionquest #sextafeira #mcu #edit #marvel 
-    
-    
-    rondi
-    
-    O luto é o amor que perdura ll #visionquest #sextafeira #mcu #edit #marvel 
-    00:00 / 00:00
-    rondi_zaikai
-    
-    44.7K
-    213
-    3920
-    2507
-    Compras do dia, em quantidades pares :) #mercado #compras #rotina #familia #vidareal #gastronomia #foodie #foodlover
-    
-    
-    
+    SELECT    
         id_secretaria,
         COUNT(*) AS total
     FROM solicitacao
